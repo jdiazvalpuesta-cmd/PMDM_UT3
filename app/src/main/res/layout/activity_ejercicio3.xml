@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#B0C4DE"
+        android:gravity="center"
+        android:text="PROGRAMACIÓN MULTIMEDIA" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0000FF" />
+
+        <!-- Columna del medio con los 3 botones en vertical -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnPant1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ir 1" />
+
+            <Button
+                android:id="@+id/btnPant2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ir 2" />
+
+            <Button
+                android:id="@+id/btnPant3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ir 3" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0000FF" />
+    </LinearLayout>
+</LinearLayout>
